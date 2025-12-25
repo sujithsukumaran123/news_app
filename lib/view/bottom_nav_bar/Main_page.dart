@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-
 import 'package:provider/provider.dart';
+import 'package:news_app/controller/bottom_nav_controller.dart';
 
-import '../../controller/bottom_nav_controller.dart';
+
 
 class MainPage extends StatelessWidget {
   @override

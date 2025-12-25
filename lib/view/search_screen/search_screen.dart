@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:news_app/controller/search_screen_controller.dart';
 import 'package:provider/provider.dart';
-import '../widgets/news_card.dart';
+import 'package:news_app/view/widgets/news_card.dart';
 
 class SearchScreen extends StatelessWidget {
 

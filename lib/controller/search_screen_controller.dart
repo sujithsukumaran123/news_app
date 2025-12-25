@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import '../model/news_model.dart';
+import 'package:news_app/model/news_model.dart';
 
 class SearchScreenController with ChangeNotifier {
   NewsModel? newsModel;
