@@ -3,8 +3,8 @@ import 'package:lottie/lottie.dart';
 
 import 'package:provider/provider.dart';
 
-import '../../controller/category_controller.dart';
-import '../widgets/news_card.dart';
+import 'package:news_app/controller/category_controller.dart';
+import 'package:news_app/view/widgets/news_card.dart';
 
 class CAtegoryScreen extends StatelessWidget {
 

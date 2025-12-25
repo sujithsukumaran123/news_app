@@ -14,8 +14,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
 
-
-
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
@@ -36,10 +34,8 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
           home: Consumer<SplashScreenProvider>(
-            builder: (context,splashScreenProvider, _) {
-              return splashScreenProvider.isLoading
-                  ? SplashScreen()
-                  : MainPage();
+            builder: (context,splashScreenProvider, widget) {
+              return splashScreenProvider.isLoading ? SplashScreen() : MainPage();
             },
           ),
 

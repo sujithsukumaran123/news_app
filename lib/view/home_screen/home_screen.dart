@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
-import '../../controller/home_screen_controller.dart';
-import '../search_screen/search_screen.dart';
-import '../widgets/news_card.dart';
+import 'package:news_app/controller/home_screen_controller.dart';
+import 'package:news_app/view/search_screen/search_screen.dart';
+import 'package:news_app/view/widgets/news_card.dart';
 
 
 class HomeScreen extends StatelessWidget {
